@@ -1,0 +1,225 @@
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.center {
+  max-width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+}
+
+.center span {
+  letter-spacing: 5px;
+  font-size: 2em;
+  color: rgb(195, 156, 156);
+}
+
+.center h1 {
+  font-size: 4em;
+}
+
+.center a {
+  text-decoration: none;
+  background: orchid;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+img {
+  max-width: 1000%;
+  max-height: 100%;
+}
+
+.text {
+  font-size: 70px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+.center {
+  max-width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.center span {
+  letter-spacing: 5px;
+  font-size: 2em;
+  color: rgb(195, 156, 156);
+}
+
+.center h1 {
+  font-size: 4em;
+}
+.center a {
+  text-decoration: none;
+  background: orchid;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+img {
+  max-width: 1000%;
+  max-height: 100%;
+}
+
+.text {
+  font-size: 70px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  color: rgb(113, 67, 5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-size: 2.3em;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(90, 49, 49);
+  padding: 10px 20px;
+  font-size: 25px;
+  position: relative;
+}
+.menu a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-bottom: 2px solid rgb(122, 29, 29);
+  transition: 0.4s linear;
+}
+.menu a:hover::before {
+  width: 90%;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 13px;
+  background: indianred;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .hills {
+    flex-direction: column;
+  }
+
+  .hills img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+  @media (max-width: 768px) {
+    /* (typically phones) */
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* (typically tablets) */
+  }
+
+  @media (min-width: 1025px) {
+    /* (typically desktops) */
+  }
+}
+
+.center a {
+  text-decoration: none;
+  background: orchid;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out; /* Add transition for smooth effect */
+  outline: none; /* Remove the default focus outline */
+}
+
+.center a:hover,
+.center a:active,
+.center a:focus {
+  background: rgb(
+    178,
+    144,
+    195
+  ); /* Change the background color on hover, click, and focus */
+  text-decoration: none; /* Remove underline on hover, click, and focus */
+}
